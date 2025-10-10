@@ -61,11 +61,11 @@
 == #fa-graduation-cap 教育背景
 
 #sidebar(with-line: true, side-width: 12%)[
-  2023.09
+  2023 年 9 月
 
   --
 
-  现在
+  至今
 ][
   *北京大学 · 信息科学技术学院 · 计算机科学与技术专业（图灵班）*
 
@@ -79,15 +79,15 @@
 == #fa-work 工作经历
 
 #sidebar(with-line: true, side-width: 12%)[
-  2025.06
+  2025 年 6 月
 
   --
 
-  2025.10
+  2025 年 10 月
 ][
   *MiniMax · 大模型算法实习生*
 
-  主要参与了预训练和 CPT 数据构造的工作。我也非常荣幸能够与 #link("https://wenhuchen.github.io/", "陈文虎") 老师合作进行一个关于 agent 数据合成的研究项目
+  非常荣幸地与 #link("https://wenhuchen.github.io/", "陈文虎") 老师合作进行一个关于搜索 Agent 的 CPT 数据合成的研究项目
 ]
 
 == #fa-teach 教学经历
@@ -104,9 +104,9 @@
 
 #sidebar(with-line: false, side-width: 0%)[
 ][
-  熟悉 C/C++, Rust, Python, Haskell 等编程语言
+  能熟练使用 C/C++, Rust, Python, Haskell 等编程语言
 
-  熟悉 Linux 系统，有一定的系统相关编程经验，并使用 Rust 语言编写了一个简单的 OS 内核作为操作系统课程的作业
+  熟悉 Linux 系统，有一定的系统相关编程经验，曾使用 Rust 语言编写了一个简单的 OS 内核作为操作系统课程的作业
 
   了解 Git, Docker 等工具的基本使用
 

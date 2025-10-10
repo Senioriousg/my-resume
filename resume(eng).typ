@@ -51,16 +51,16 @@
     ),
   )
 ][
-  I'm now a junior student in Turing Class, an honors program of computer science founded by School of Electronics Engineering and Computer Science (EECS) at Peking University (PKU).
+  I am currently a junior student in Turing Class, an honors program of computer science founded by the School of Electronics Engineering and Computer Science (EECS) at Peking University (PKU).
 
-  I'm interested in many fields of computer science, including computer systems, LLMs and the intersection of AI and logic.
+  I have broad interests in computer science, particularly in computer systems, large language models (LLMs), and the intersection of AI and logic.
 ]
 
 
 == #fa-graduation-cap EDUCATION
 
 #sidebar(with-line: true, side-width: 12%)[
-  2023.09
+  Sep 2023
 
   --
 
@@ -68,7 +68,7 @@
 ][
   *Peking University · EECS · Computer Science*
 
-  Participated in the Logic Minor Program in the Department of Philosophy at Peking University
+  Currently participating in the Logic Minor Program in the Department of Philosophy at Peking University
 
   _GPA: 3.72 / 4.0_
   
@@ -78,15 +78,15 @@
 == #fa-work WORKING EXPERIENCE
 
 #sidebar(with-line: true, side-width: 12%)[
-  2025.06
+  Jun 2025
 
   --
 
-  2025.10
+  Oct 2025
 ][
   *MiniMax · LLM Research Intern*
 
-  Mainly participated in pretraining and CPT data construction. I was also deeply honored to work with Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on an agentic data synthesis research project.
+  I was deeply honored to work with Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on agentic data synthesis for CPT.
 ]
 
 == #fa-teach TEACHING EXPERIENCE
@@ -96,15 +96,15 @@
 ][
   *Peking University · Teaching Assistant*
 
-  for _Introduction to Computer Systems_, a course for all sophomore CS students about the basic knowledge of computer systems
+  for _Introduction to Computer Systems_, a course covering the fundamental concepts of computer systems for all sophomore CS students
 ]
 == #fa-wrench PROFESSIONAL SKILLS
 
 #sidebar(with-line: false, side-width: 0%)[
 ][
-  I am familiar with C/C++, Rust, Python and Haskell
+  I am proficient in C/C++, Rust, Python, and Haskell
 
-  I am familiar with Linux, and have written a simple OS kernel in Rust as the homework of the operating system course
+  I have extensive experience with Linux and computer systems and have implemented an OS kernel in Rust for my operating systems course
 
   I can use basic programming tools like Git and Docker
 
