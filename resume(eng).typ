@@ -18,8 +18,6 @@
 #let fa-work = icon("icons/fa-work.svg")
 #let fa-teach = icon("icons/fa-person-chalkboard.svg")
 
-#let songti(content) = text(font: "SongTi SC", content)
-
 // 设置简历选项与头部
 #show: resume.with(
   // 字体和基准大小
@@ -42,7 +40,7 @@
   // photograph-width: 10em,
   // gutter-width: 2em,
 )[
-  = 葛子越
+  = Ziyue Ge (葛子越)
 
   #info(
     color: theme-color,
@@ -53,30 +51,31 @@
     ),
   )
 ][
-  我现在就读于北京大学 2023 级图灵班
-  
-  我对计算机科学的各个领域，以及计算机科学与逻辑学的交叉领域有着广泛的兴趣
+  I'm now a junior student in Turing Class, an honors program of computer science founded by School of Electronics Engineering and Computer Science (EECS) at Peking University (PKU).
+
+  I'm interested in many fields of computer science, including computer systems, LLMs and the intersection of AI and logic.
 ]
 
-== #fa-graduation-cap 教育背景
+
+== #fa-graduation-cap EDUCATION
 
 #sidebar(with-line: true, side-width: 12%)[
   2023.09
 
   --
 
-  现在
+  present
 ][
-  *北京大学 · 信息科学技术学院 · 计算机科学与技术专业（图灵班）*
+  *Peking University · EECS · Computer Science*
 
-  我还参与了北京大学哲学系逻辑学双学位项目
+  Participated in the Logic Minor Program in the Department of Philosophy at Peking University
 
   _GPA: 3.72 / 4.0_
   
-  #songti("专业课") _GPA: 3.80 / 4.0)_
+  _Major GPA: 3.80 / 4.0_
 ]
 
-== #fa-work 工作经历
+== #fa-work WORKING EXPERIENCE
 
 #sidebar(with-line: true, side-width: 12%)[
   2025.06
@@ -85,59 +84,58 @@
 
   2025.10
 ][
-  *MiniMax · 大模型算法实习生*
+  *MiniMax · LLM Research Intern*
 
-  主要参与了预训练和 CPT 数据构造的工作。我也非常荣幸能够与 #link("https://wenhuchen.github.io/", "陈文虎") 老师合作进行一个关于 agent 数据合成的研究项目
+  Mainly participated in pretraining and CPT data construction. I was also deeply honored to work with Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on an agentic data synthesis research project.
 ]
 
-== #fa-teach 教学经历
+== #fa-teach TEACHING EXPERIENCE
 
 #sidebar(with-line: true, side-width: 12%)[
-  2025 秋
+  Fall 2025
 ][
-  *北京大学 · 助教*
+  *Peking University · Teaching Assistant*
 
-  为 #songti("计算机系统导论") 课程的助教，这是一门面向大二全体同学的计算机系统基础课，我主要负责小班课的组织和讲授
+  for _Introduction to Computer Systems_, a course for all sophomore CS students about the basic knowledge of computer systems
 ]
-
-== #fa-wrench 专业技能
+== #fa-wrench PROFESSIONAL SKILLS
 
 #sidebar(with-line: false, side-width: 0%)[
 ][
-  熟悉 C/C++, Rust, Python, Haskell 等编程语言
+  I am familiar with C/C++, Rust, Python and Haskell
 
-  熟悉 Linux 系统，有一定的系统相关编程经验，并使用 Rust 语言编写了一个简单的 OS 内核作为操作系统课程的作业
+  I am familiar with Linux, and have written a simple OS kernel in Rust as the homework of the operating system course
 
-  了解 Git, Docker 等工具的基本使用
+  I can use basic programming tools like Git and Docker
 
-  熟悉程序的形式化验证整体框架，有基本的逻辑学储备（参加了北京大学哲学系逻辑学双学位项目）
+  I am familiar with formal verification and can use languages like Lean and Coq
 ]
 
-== #fa-award 获奖情况
+== #fa-award HONORS AND AWARDS
 
 #sidebar(with-line: false, side-width: 0%)[
 ][
   #item(
-    [ *2024 年 ICPC 亚洲区域赛（香港站）* ],
-    [ *金牌（冠军）* ],
-    date[ 2024 年 12 月 ]
+    [ *The 2024 ICPC Asia Hong Kong Regional Contest* ],
+    [ *Gold Medal (1st place)* ],
+    date[ December 2024 ]
   )
 
   #item(
-    [ *2024 年 ICPC 亚洲区域赛（昆明站）* ],
-    [ *金牌（第四名）* ],
-    date[ 2024 年 12 月 ]
+    [ *The 2024 ICPC Asia Kunming Regional Contest* ],
+    [ *Gold Medal (4th place)* ],
+    date[ December 2024 ]
   )
 
   #item(
-    [ *图灵班 John Hopcroft 奖学金* ],
+    [ *John Hopcroft Scholarship* ],
     [],
-    date[ 2024 年 ]
+    date[ 2024 ]
   )
 
   #item(
-    [ *全国青少年信息学奥林匹克竞赛（NOI）* ],
-    [ *金牌* ],
-    date[ 2022 年 8 月 ],
+    [ *Chinese National Olympiad in Informatics* ],
+    [ *Gold Medal (top 50 in China)* ],
+    date[ August 2022 ],
   )
 ]
