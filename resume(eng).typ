@@ -86,7 +86,9 @@
 ][
   *MiniMax · LLM Research Intern*
 
-  I was deeply honored to work with Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on agentic data synthesis for CPT.
+  I mainly worked in pretraining data team.
+
+  I was deeply honored to work under the guidence of Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on agentic data synthesis for CPT.
 ]
 
 == #fa-teach TEACHING EXPERIENCE
