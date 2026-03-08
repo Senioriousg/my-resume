@@ -17,6 +17,7 @@
 #let fa-wrench = icon("icons/fa-wrench.svg")
 #let fa-work = icon("icons/fa-work.svg")
 #let fa-teach = icon("icons/fa-person-chalkboard.svg")
+#let fa-lang = icon("icons/fa-lang.svg")
 
 #let songti(content) = text(font: "SongTi SC", content)
 
@@ -55,7 +56,7 @@
 ][
   我现在就读于北京大学 2023 级图灵班
   
-  我对计算机科学的各个领域，以及计算机科学与逻辑学的交叉领域有着广泛的兴趣
+  我对计算机科学的各个领域（尤其是和大模型相关的领域），以及计算机科学与逻辑学的交叉领域有着广泛的兴趣
 ]
 
 == #fa-graduation-cap 教育背景
@@ -71,9 +72,9 @@
 
   我还参与了北京大学哲学系逻辑学双学位项目
 
-  _GPA: 3.72 / 4.0_
+  _GPA: 3.73 / 4.0_
   
-  #songti("专业课") _GPA: 3.80 / 4.0)_
+  #songti("专业课") _GPA: 3.80 / 4.0_
 ]
 
 == #fa-work 工作经历
@@ -85,9 +86,7 @@
 
   2025 年 10 月
 ][
-  *MiniMax · 大模型算法实习生*
-
-  我主要在预训练数据团队工作
+  *MiniMax · 大模型算法实习生 · 预训练团队*
 
   在团队中，我非常荣幸地在 #link("https://wenhuchen.github.io/", "陈文虎") 老师指导下进行了一个关于搜索 Agent 的 CPT 数据合成的研究项目
 ]
@@ -95,7 +94,7 @@
 == #fa-teach 教学经历
 
 #sidebar(with-line: true, side-width: 12%)[
-  2025 秋
+  2025 年 秋季
 ][
   *北京大学 · 助教*
 
@@ -115,10 +114,23 @@
   熟悉程序的形式化验证整体框架，有基本的逻辑学储备
 ]
 
+== #fa-lang 语言能力
+
+#sidebar(with-line: false, side-width: 0%)[
+][
+  拥有较为熟练的英语沟通能力，大学英语六级：560 分
+]
+
 == #fa-award 获奖情况
 
 #sidebar(with-line: false, side-width: 0%)[
 ][
+  #item(
+    [ *图灵班 John Hopcroft 奖学金* ],
+    [],
+    date[ 2025 年 ]
+  )
+
   #item(
     [ *2024 年 ICPC 亚洲区域赛（香港站）* ],
     [ *金牌（冠军）* ],

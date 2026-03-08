@@ -17,6 +17,7 @@
 #let fa-wrench = icon("icons/fa-wrench.svg")
 #let fa-work = icon("icons/fa-work.svg")
 #let fa-teach = icon("icons/fa-person-chalkboard.svg")
+#let fa-lang = icon("icons/fa-lang.svg")
 
 // 设置简历选项与头部
 #show: resume.with(
@@ -110,7 +111,18 @@
 
   I can use basic programming tools like Git and Docker
 
-  I am familiar with formal verification and can use languages like Lean and Coq
+  I am familiar with formal verification and can use languages like Agda and Rocq
+]
+
+== #fa-lang LANGUAGE SKILLS
+
+#sidebar(with-line: false, side-width: 0%)[
+][
+  Mandarin is my native language
+
+  I possess basic English communication skills, with a CET-6 score of 560
+
+  I am also a beginner in Japanese, I am learning it for fun on Duolingo
 ]
 
 == #fa-award HONORS AND AWARDS
