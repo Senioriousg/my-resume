@@ -1,8 +1,8 @@
 // 字体
 #let font = (
-  main: "IBM Plex Serif",
-  mono: "IBM Plex Mono",
-  cjk: "Noto Serif CJK SC",
+  main: "Charter",
+  mono: "Menlo",
+  cjk: "Source Han Serif SC",
 )
 
 // 图标

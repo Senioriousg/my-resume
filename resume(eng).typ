@@ -65,9 +65,13 @@
   I have broad interests across computer science and its intersections with other disciplines.
 ]
 
+#set par(spacing: 0.6em)
+
 == #fa-graduation-cap EDUCATION
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
+  #text(size: 9pt)[*Undergraduate*]
+
   Sep 2023
 
   --
@@ -89,7 +93,7 @@
 
 == #fa-work WORK EXPERIENCE
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   Jun 2025
 
   --
@@ -105,7 +109,7 @@
   I was then honored to work under the guidance of Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on a research project in data synthesis for agentic search. Through this project, I gained experience building a minimal agent harness, using LLM-as-judge evaluation, and processing data for post-training.
 ]
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   Jun 2026
 
   --
@@ -121,7 +125,7 @@
 
 == #fa-file PUBLICATIONS
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   May 2026
 ][
   *The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence*
@@ -130,6 +134,8 @@
 
   Technical Report (Preprint) · #link("https://arxiv.org/abs/2605.26494", "arXiv:2605.26494")
 ]
+
+#pagebreak()
 
 == #fa-award HONORS AND AWARDS
 
@@ -162,25 +168,25 @@
 
 == #fa-teach TEACHING EXPERIENCE
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   Fall 2025
 ][
   *Peking University · Teaching Assistant*
 
-  I served as a teaching assistant for _Introduction to Computer Systems_, a course covering the fundamentals of computer systems for all sophomore CS students. I organized and taught small-group discussion sessions, proctored exams, and graded exam papers.
+  I served as a teaching assistant for *Introduction to Computer Systems*, a course covering the fundamentals of computer systems for all sophomore CS students. I organized and taught small-group discussion sessions, proctored exams, and graded exam papers.
 ]
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   Fall 2026
 ][
   *Peking University · Teaching Assistant*
 
-  I serve as a teaching assistant for _Discrete Mathematics and Structures (I)_, an advanced section for sophomores with a strong mathematical background. I grade assignments and write exam questions.
+  I serve as a teaching assistant for *Discrete Mathematics and Structures (I)*, an advanced section for sophomores with a strong mathematical background. I grade assignments and write exam questions.
 ]
 
 == #fa-comments PUBLIC TALKS
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   Sep 2026
 
   798, Beijing
@@ -192,13 +198,13 @@
 
 #sidebar(with-line: false, side-width: 0%)[
 ][
-  I am proficient in C/C++, Rust, Python, and Haskell.
+  I am proficient in C/C++, Rust, Python, and Haskell, and have basic familiarity with Go, Rocq, and Java.
 
-  I am familiar with Linux and have some experience in systems programming. I implemented a simple OS kernel in Rust for my operating systems course.
+  I am familiar with Linux and have some experience in systems programming. I implemented a simple OS kernel in Rust for *Operating Systems (Honor Track Class)*.
 
   I am familiar with development tools such as Git and Docker and have experience working on software projects in a team.
 
-  I have studied programming languages through courses on the foundations of software science and program analysis. I am familiar with the overall framework of formal verification and have a basic grounding in logic.
+  I have studied programming languages through courses such as *Software Foundations* and *Software Analysis*, and am familiar with the overall framework of formal verification. As part of my dual degree in the Department of Philosophy, I have also studied foundational topics in logic, including modal logic and computability theory.
 
   I have experience conducting deep learning research and development independently and am proficient in tools such as NumPy and PyTorch.
 ]

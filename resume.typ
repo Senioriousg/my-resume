@@ -21,7 +21,7 @@
 #let fa-comments = icon("icons/fa-comments.svg")
 #let fa-file = icon("icons/fa-file.svg")
 
-#let songti(content) = text(font: "SongTi SC", content)
+#let songti(content) = text(font: font.cjk, content)
 
 // 设置简历选项与头部
 #show: resume.with(
@@ -69,7 +69,9 @@
 
 == #fa-graduation-cap 教育背景
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
+  *本科*
+
   2023 年 9 月
 
   --
@@ -91,7 +93,7 @@
 
 == #fa-work 工作经历
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   2025 年 6 月
 
   --
@@ -107,7 +109,7 @@
   随后，我非常荣幸地在 #link("https://wenhuchen.github.io/", "陈文虎") 老师指导下进行了一个关于 agentic search 数据合成的研究项目。在该项目中，我积累了包括极简 agent harness 搭建，LLM-as-judge，后训练数据格式处理等各方面的经验。
 ]
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   2026 年 6 月
 
   --
@@ -123,7 +125,7 @@
 
 == #fa-file 文章发表
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   2026 年 5 月
 ][
   *The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence*
@@ -164,25 +166,25 @@
 
 == #fa-teach 教学经历
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   2025 年 秋季
 ][
   *北京大学 · 助教*
 
-  我担任了 #songti("计算机系统导论") 课程的助教，这是一门面向大二全体同学的计算机系统基础课，我负责了小班讨论课的组织、讲授以及考试的监考、批改等工作。
+  我担任了*计算机系统导论*课程的助教，这是一门面向大二全体同学的计算机系统基础课，我负责了小班讨论课的组织、讲授以及考试的监考、批改等工作。
 ]
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   2026 年 秋季
 ][
   *北京大学 · 助教*
 
-  我担任了 #songti("离散数学与结构（I）") 课程的助教，这是一门面向大二数学基础较好同学的离散数学实验班课程，我负责了作业批改和考试题目命制。
+  我担任了*离散数学与结构（I）*课程的助教，这是一门面向大二数学基础较好同学的离散数学实验班课程，我负责了作业批改和考试题目命制。
 ]
 
 == #fa-comments 分享报告
 
-#sidebar(with-line: true, side-width: 12%)[
+#sidebar(with-line: true, side-width: 14%)[
   2026 年 9 月
   
   北京 798
@@ -194,15 +196,15 @@
 
 #sidebar(with-line: false, side-width: 0%)[
 ][
-  我能熟练使用 C/C++, Rust, Python, Haskell 等编程语言。
+  我能熟练使用 C/C++, Rust, Python, Haskell 等编程语言，了解 Go, Rocq, Java 等编程语言的基本使用。
 
-  我熟悉 Linux 系统，有一定的系统相关编程经验，曾使用 Rust 语言编写了一个简单的 OS 内核作为操作系统课程的作业。
+  我熟悉 Linux 系统，有一定的系统相关编程经验，曾使用 Rust 语言编写了一个简单的 OS 内核作为*操作系统（实验班）*的作业。
 
   我熟悉 Git, Docker 等开发工具的使用，拥有团队合作开发经验。
 
-  我通过相关课程对程序语言领域有所了解，学习过例如软件科学基础、程序分析等相关课程，较为了解形式化验证整体框架，有基本的逻辑学储备。
+  我通过相关课程对程序语言领域有所了解，学习过例如*软件科学基础*、*软件分析技术*等相关课程，较为了解形式化验证整体框架。除此之外，在修读哲学系双学位时，我学习了基本的逻辑学知识，包括模态逻辑、可计算理论等。
 
-  我有独立进行深度学习研究和开发的经验，可以熟练使用 NumPy, PyTorch 等工具。
+  我有独立进行深度学习研究和开发的经验，可以熟练使用 NumPy, PyTorch 等相关工具。
 ]
 
 == #fa-lang 语言能力
