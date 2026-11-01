@@ -19,6 +19,7 @@
 #let fa-teach = icon("icons/fa-person-chalkboard.svg")
 #let fa-lang = icon("icons/fa-lang.svg")
 #let fa-comments = icon("icons/fa-comments.svg")
+#let fa-file = icon("icons/fa-file.svg")
 
 #let songti(content) = text(font: "SongTi SC", content)
 
@@ -48,6 +49,10 @@
 
   #info(
     color: theme-color,
+    (
+      icon: fa-phone,
+      content: "(+86)155-5533-3869",
+    ),
     (
       icon: fa-envelope,
       content: "geziyue23@stu.pku.edu.cn",
@@ -95,9 +100,11 @@
 ][
   *MiniMax · 大模型算法实习生*
 
-  我在预训练团队学习了分布式数据处理的相关经验，并在 mentor 的指导下进行了 Wikipedia 合成 CPT 长文本数据项目探索。
+  我在预训练团队学习了分布式数据处理的相关经验，包括如何使用 ray 进行简单的分布式数据处理、预训练相关数据的格式以及预训练的基本流程。
 
-  随后，我非常荣幸地在 #link("https://wenhuchen.github.io/", "陈文虎") 老师指导下进行了一个关于 agentic search 数据合成的研究项目。
+  我在 mentor 的指导下进行了 Wikipedia 合成 CPT 长文本数据项目探索。
+
+  随后，我非常荣幸地在 #link("https://wenhuchen.github.io/", "陈文虎") 老师指导下进行了一个关于 agentic search 数据合成的研究项目。在该项目中，我积累了包括极简 agent harness 搭建，LLM-as-judge，后训练数据格式处理等各方面的经验。
 ]
 
 #sidebar(with-line: true, side-width: 12%)[
@@ -109,25 +116,21 @@
 ][
   *百奥几何 · AI4S 算法实习生*
 
-  实习期间，我独立推进了一项氨基酸序列-蛋白质结构 codesign 模型的探索项目，进行了模型开发和训练相关的工作。
+  实习期间，我独立推进了一项氨基酸序列-蛋白质结构 codesign 模型的探索项目，进行了模型开发、模型评测和训练监控等相关工作。
+
+  此外我还参与了 Geoflow-design 新一代蛋白质设计模型的代码审查、模型评测和训练监控等相关工作。
 ]
 
-== #fa-teach 教学经历
+== #fa-file 文章发表
 
 #sidebar(with-line: true, side-width: 12%)[
-  2025 年 秋季
+  2026 年 5 月
 ][
-  *北京大学 · 助教*
+  *The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence*
 
-  我担任了 #songti("计算机系统导论") 课程的助教，这是一门面向大二全体同学的计算机系统基础课，我主要负责小班讨论课的组织和讲授。
-]
+  Aili Chen, Aonian Li, …, *Ziyue Ge*, et al.
 
-#sidebar(with-line: true, side-width: 12%)[
-  2026 年 秋季
-][
-  *北京大学 · 助教*
-
-  我担任了 #songti("离散数学与结构（I）") 课程的助教，这是一门面向大二数学基础较好同学的离散数学提高课程，我负责了作业批改和考试题目命制。
+  技术报告（预印本）· #link("https://arxiv.org/abs/2605.26494", "arXiv:2605.26494")
 ]
 
 == #fa-award 获奖情况
@@ -137,7 +140,7 @@
   #item(
     [ *图灵班 John Hopcroft 奖学金* ],
     [],
-    date[ 2025 年 ]
+    date[ 2026, 2025, 2024 年 ]
   )
 
   #item(
@@ -153,16 +156,28 @@
   )
 
   #item(
-    [ *图灵班 John Hopcroft 奖学金* ],
-    [],
-    date[ 2024 年 ]
-  )
-
-  #item(
     [ *全国青少年信息学奥林匹克竞赛（NOI）* ],
     [ *金牌* ],
     date[ 2022 年 8 月 ],
   )
+]
+
+== #fa-teach 教学经历
+
+#sidebar(with-line: true, side-width: 12%)[
+  2025 年 秋季
+][
+  *北京大学 · 助教*
+
+  我担任了 #songti("计算机系统导论") 课程的助教，这是一门面向大二全体同学的计算机系统基础课，我负责了小班讨论课的组织、讲授以及考试的监考、批改等工作。
+]
+
+#sidebar(with-line: true, side-width: 12%)[
+  2026 年 秋季
+][
+  *北京大学 · 助教*
+
+  我担任了 #songti("离散数学与结构（I）") 课程的助教，这是一门面向大二数学基础较好同学的离散数学实验班课程，我负责了作业批改和考试题目命制。
 ]
 
 == #fa-comments 分享报告
@@ -183,9 +198,9 @@
 
   我熟悉 Linux 系统，有一定的系统相关编程经验，曾使用 Rust 语言编写了一个简单的 OS 内核作为操作系统课程的作业。
 
-  我熟悉 Git, Docker 等技术工具的基本使用。
+  我熟悉 Git, Docker 等开发工具的使用，拥有团队合作开发经验。
 
-  我通过相关课程对程序语言领域有所了解，较为了解形式化验证整体框架，有基本的逻辑学储备。
+  我通过相关课程对程序语言领域有所了解，学习过例如软件科学基础、程序分析等相关课程，较为了解形式化验证整体框架，有基本的逻辑学储备。
 
   我有独立进行深度学习研究和开发的经验，可以熟练使用 NumPy, PyTorch 等工具。
 ]

@@ -18,6 +18,8 @@
 #let fa-work = icon("icons/fa-work.svg")
 #let fa-teach = icon("icons/fa-person-chalkboard.svg")
 #let fa-lang = icon("icons/fa-lang.svg")
+#let fa-comments = icon("icons/fa-comments.svg")
+#let fa-file = icon("icons/fa-file.svg")
 
 // 设置简历选项与头部
 #show: resume.with(
@@ -46,17 +48,22 @@
   #info(
     color: theme-color,
     (
+      icon: fa-phone,
+      content: "(+86)155-5533-3869",
+    ),
+    (
       icon: fa-envelope,
       content: "geziyue23@stu.pku.edu.cn",
       link: "mailto:geziyue23@stu.pku.edu.cn",
     ),
   )
 ][
-  I am currently a junior student in Turing Class, an honors program of computer science founded by the School of Electronics Engineering and Computer Science (EECS) at Peking University (PKU).
+  I am currently a student in the 2023 cohort of Turing Class, an honors program in computer science at Peking University (PKU).
 
-  I have broad interests in computer science, particularly in computer systems, large language models (LLMs), and the intersection of AI and logic.
+  I have a basic background in logic, philosophy, and anthropology, and enjoy exploring questions in these fields, especially those in Science and Technology Studies (STS) related to contemporary technology.
+
+  I have broad interests across computer science and its intersections with other disciplines.
 ]
-
 
 == #fa-graduation-cap EDUCATION
 
@@ -65,18 +72,22 @@
 
   --
 
-  present
+  Jun 2027
+
+  (expected)
 ][
-  *Peking University · EECS · Computer Science*
+  *Peking University · School of Electronics Engineering and Computer Science (EECS) · Computer Science (Turing Class)*
 
-  Currently participating in the Logic Minor Program in the Department of Philosophy at Peking University
+  and
 
-  _GPA: 3.72 / 4.0_
-  
-  _Major GPA: 3.80 / 4.0_
+  *Peking University · Department of Philosophy · Logic (Dual Degree)*
+
+  _GPA: 3.74 / 4.0 · Rank: top 25%_
+
+  _Major GPA: 3.81 / 4.0_
 ]
 
-== #fa-work WORKING EXPERIENCE
+== #fa-work WORK EXPERIENCE
 
 #sidebar(with-line: true, side-width: 12%)[
   Jun 2025
@@ -87,48 +98,49 @@
 ][
   *MiniMax · LLM Research Intern*
 
-  I mainly worked in pretraining data team.
+  In the pretraining team, I gained experience in distributed data processing, including basic data processing with Ray, pretraining data formats, and the overall pretraining workflow.
 
-  I was deeply honored to work under the guidence of Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on agentic data synthesis for CPT.
+  Under my mentor's guidance, I explored synthesizing long-form text from Wikipedia for continued pretraining (CPT).
+
+  I was then honored to work under the guidance of Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on a research project in data synthesis for agentic search. Through this project, I gained experience building a minimal agent harness, using LLM-as-judge evaluation, and processing data for post-training.
 ]
-
-== #fa-teach TEACHING EXPERIENCE
 
 #sidebar(with-line: true, side-width: 12%)[
-  Fall 2025
+  Jun 2026
+
+  --
+
+  present
 ][
-  *Peking University · Teaching Assistant*
+  *BioGeometry · AI for Science (AI4S) Research Intern*
 
-  for _Introduction to Computer Systems_, a course covering the fundamental concepts of computer systems for all sophomore CS students
-]
-== #fa-wrench PROFESSIONAL SKILLS
+  During this internship, I have independently pursued an exploratory project on a model for protein sequence and structure co-design, working on model development, evaluation, and training monitoring.
 
-#sidebar(with-line: false, side-width: 0%)[
-][
-  I am proficient in C/C++, Rust, Python, and Haskell
-
-  I have extensive experience with Linux and computer systems and have implemented an OS kernel in Rust for my operating systems course
-
-  I can use basic programming tools like Git and Docker
-
-  I am familiar with formal verification and can use languages like Agda and Rocq
+  I have also contributed to code review, model evaluation, and training monitoring for Geoflow-design, a next-generation protein design model.
 ]
 
-== #fa-lang LANGUAGE SKILLS
+== #fa-file PUBLICATIONS
 
-#sidebar(with-line: false, side-width: 0%)[
+#sidebar(with-line: true, side-width: 12%)[
+  May 2026
 ][
-  Mandarin is my native language
+  *The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence*
 
-  I possess basic English communication skills, with a CET-6 score of 560
+  Aili Chen, Aonian Li, …, *Ziyue Ge*, et al.
 
-  I am also a beginner in Japanese, I am learning it for fun on Duolingo
+  Technical Report (Preprint) · #link("https://arxiv.org/abs/2605.26494", "arXiv:2605.26494")
 ]
 
 == #fa-award HONORS AND AWARDS
 
 #sidebar(with-line: false, side-width: 0%)[
 ][
+  #item(
+    [ *John Hopcroft Scholarship (Turing Class)* ],
+    [],
+    date[ 2026, 2025, 2024 ]
+  )
+
   #item(
     [ *The 2024 ICPC Asia Hong Kong Regional Contest* ],
     [ *Gold Medal (1st place)* ],
@@ -142,14 +154,60 @@
   )
 
   #item(
-    [ *John Hopcroft Scholarship* ],
-    [],
-    date[ 2024 ]
-  )
-
-  #item(
-    [ *Chinese National Olympiad in Informatics* ],
-    [ *Gold Medal (top 50 in China)* ],
+    [ *Chinese National Olympiad in Informatics (NOI)* ],
+    [ *Gold Medal* ],
     date[ August 2022 ],
   )
+]
+
+== #fa-teach TEACHING EXPERIENCE
+
+#sidebar(with-line: true, side-width: 12%)[
+  Fall 2025
+][
+  *Peking University · Teaching Assistant*
+
+  I served as a teaching assistant for _Introduction to Computer Systems_, a course covering the fundamentals of computer systems for all sophomore CS students. I organized and taught small-group discussion sessions, proctored exams, and graded exam papers.
+]
+
+#sidebar(with-line: true, side-width: 12%)[
+  Fall 2026
+][
+  *Peking University · Teaching Assistant*
+
+  I serve as a teaching assistant for _Discrete Mathematics and Structures (I)_, an advanced section for sophomores with a strong mathematical background. I grade assignments and write exam questions.
+]
+
+== #fa-comments PUBLIC TALKS
+
+#sidebar(with-line: true, side-width: 12%)[
+  Sep 2026
+
+  798, Beijing
+][
+  At the invitation of inter.act, a space for art and everyday practice, I joined two friends in giving a public talk titled "Where Are We Now? AI Today and the Future of Humanity" in Beijing's 798 Art District. We introduced the basic principles of large language models and shared our observations and reflections with the general public (prolétariat), across different ages and backgrounds.
+]
+
+== #fa-wrench PROFESSIONAL SKILLS
+
+#sidebar(with-line: false, side-width: 0%)[
+][
+  I am proficient in C/C++, Rust, Python, and Haskell.
+
+  I am familiar with Linux and have some experience in systems programming. I implemented a simple OS kernel in Rust for my operating systems course.
+
+  I am familiar with development tools such as Git and Docker and have experience working on software projects in a team.
+
+  I have studied programming languages through courses on the foundations of software science and program analysis. I am familiar with the overall framework of formal verification and have a basic grounding in logic.
+
+  I have experience conducting deep learning research and development independently and am proficient in tools such as NumPy and PyTorch.
+]
+
+== #fa-lang LANGUAGE SKILLS
+
+#sidebar(with-line: false, side-width: 0%)[
+][
+  I have good English communication skills, with a CET-6 score of 560.
+
+  I am also a beginner in Japanese and currently study it on Duolingo.
 ]
