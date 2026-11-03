@@ -204,7 +204,7 @@
 
   I am familiar with development tools such as Git and Docker and have experience working on software projects in a team.
 
-  I have studied programming languages through courses such as *Software Foundations* and *Software Analysis*, and am familiar with the overall framework of formal verification. As part of my dual degree in the Department of Philosophy, I have also studied foundational topics in logic, including modal logic and computability theory.
+  I have studied programming languages through courses such as *Software Foundations* and *Software Analysis*, and am familiar with the overall framework of formal verification. As part of my dual degree in the Department of Philosophy, I have also studied foundational topics in logic, including *Modal Logic* and *Computability Theory*.
 
   I have experience conducting deep learning research and development independently and am proficient in tools such as NumPy and PyTorch.
 ]
