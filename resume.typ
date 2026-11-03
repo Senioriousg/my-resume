@@ -106,7 +106,7 @@
 
   我在 mentor 的指导下进行了 Wikipedia 合成 CPT 长文本数据项目探索。
 
-  随后，我非常荣幸地在 #link("https://wenhuchen.github.io/", "陈文虎") 老师指导下进行了一个关于 agentic search 数据合成的研究项目。在该项目中，我积累了包括极简 agent harness 搭建，LLM-as-judge，后训练数据格式处理等各方面的经验。
+  随后，我参与了一个关于 agentic search 数据合成的研究项目。在该项目中，我积累了包括极简 agent harness 搭建，LLM-as-judge，后训练数据格式处理等各方面的经验。
 ]
 
 #sidebar(with-line: true, side-width: 14%)[

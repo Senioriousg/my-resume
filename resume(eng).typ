@@ -106,7 +106,7 @@
 
   Under my mentor's guidance, I explored synthesizing long-form text from Wikipedia for continued pretraining (CPT).
 
-  I was then honored to work under the guidance of Prof. #link("https://wenhuchen.github.io/", "Wenhu Chen") on a research project in data synthesis for agentic search. Through this project, I gained experience building a minimal agent harness, using LLM-as-judge evaluation, and processing data for post-training.
+  I participated in a research project in data synthesis for agentic search. Through this project, I gained experience building a minimal agent harness, using LLM-as-judge evaluation, and processing data for post-training.
 ]
 
 #sidebar(with-line: true, side-width: 14%)[
